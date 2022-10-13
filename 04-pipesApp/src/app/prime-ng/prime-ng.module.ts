@@ -5,7 +5,10 @@ import { NgModule } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import {FieldsetModule} from 'primeng/fieldset';
-import {MenubarModule} from 'primeng/menubar';
+import { MenubarModule } from 'primeng/menubar';
+import { ToolbarModule } from 'primeng/toolbar';
+import {TableModule} from 'primeng/table';
+
 
 
 @NgModule({
@@ -13,7 +16,9 @@ import {MenubarModule} from 'primeng/menubar';
     ButtonModule,
     CardModule,
     MenubarModule,
-    FieldsetModule
+    FieldsetModule,
+    ToolbarModule,
+    TableModule
   ]
 
 })
